@@ -134,7 +134,7 @@ public class handlingOption {
         	 System.exit(0);
         	  break;
        default :
-       	System.out.println("PLEAS ENTER FAID OPTION NUMBER \n");
+       	System.out.println("PLEAS ENTER VAID OPTION NUMBER \n");
        	System.exit(0);
        	
          
@@ -142,7 +142,7 @@ public class handlingOption {
 	}   catch (InputMismatchException e)
 		   {
 	   
-		System.out.println("PLEAS ENTER FAID OPTION NUMBER \n");
+		System.out.println("PLEAS ENTER VAID OPTION NUMBER \n");
 		dispalyMenu();
 		
 		
