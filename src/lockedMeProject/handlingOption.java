@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class handlingOption {
 	
 	 Scanner sc= new Scanner(System.in);
-	 public final static String ROOT_DIRECTORY_PATH="./files/";
+	 public final static String ROOT_DIRECTORY_PATH ="./files/";
 	
 
 	public static void dispalyMainMenu()
@@ -20,10 +20,11 @@ public class handlingOption {
 		
    try {
 		String msgPrint=
-				"\n \n please enter your chois number :\n \n" +
+				"\n \n please enter your choies number :\n \n" +
 	             "1-Retrieving the file\n"+
 				 "2-Display File operations menu \n"+
-	             "3-Exit the application";
+	             "3-Exit the application ";
+		
 		
 	              System.out.println(msgPrint);
 	              Scanner sc= new Scanner(System.in);
@@ -45,7 +46,7 @@ public class handlingOption {
 	              case 3:
 	            	 System.out.println("the porgram is EXIT");
 	            	 System.exit(0);
-	            	  break;
+	            	 break;
 	            	  
 	            default :
 	            	System.out.println("PLEAS ENTER VAID OPTION NUMBER");
